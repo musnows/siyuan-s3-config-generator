@@ -1,0 +1,11 @@
+buckets:
+  - region: us-east-1
+    config:
+      endpoint: s3.amazonaws.com
+      addressing: "Path-style"
+      tls: "Verify"
+  - region: us-west-2
+    config:
+      endpoint: s3-us-west-2.amazonaws.com
+      addressing: "Virtual-hosted-style"
+      tls: "Verify"

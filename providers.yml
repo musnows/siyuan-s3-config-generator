@@ -1,0 +1,7 @@
+providers:
+  - name: "aws"
+    displayName: "亚马逊云 / AWS"
+    configFile: "aws.yml"
+  - name: "alibaba"
+    displayName: "阿里云 / Alibaba Cloud"
+    configFile: "alibaba.yml"

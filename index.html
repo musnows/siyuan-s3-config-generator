@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>思源 S3 同步配置生成器 | Siyuan S3 Configuration Generator</title>
+  <link rel="stylesheet" href="styles.css"> <!-- 引入 CSS 文件 -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js"></script>
+  <script src="script.js" defer></script> <!-- 引入 JavaScript 文件 -->
+</head>
+<body>
+  <div class="container">
+    <h1>Siyuan S3 Configuration Generator</h1>
+    <div style="text-align: center;">
+      <p>思源笔记 S3 同步配置生成器</p>
+    </div>
+    <div>
+      <label for="provider">服务商 / Service Provider:</label>
+      <select id="provider">
+        <option value="">请选择您的服务商 / Select a provider</option>
+      </select>
+    </div>
+    <div>
+      <label for="region">地域 / Region:</label>
+      <select id="region">
+        <option value="">请选择您的地域 / Select a region</option>
+      </select>
+    </div>
+    <div>
+      <label for="bucket">存储桶 / Bucket Name:</label>
+      <input type="text" id="bucket" placeholder="请输入您的存储桶名称 / Please enter your bucket name" />
+    </div>
+    <div id="config-display">
+      <h2>最终配置 / Configuration:</h2>
+      <div id="config">此处会显示思源笔记 S3 同步应填写的配置。<br>Siyuan S3 configuration will display here.</div>
+    </div>
+
+    <!-- 作者信息和版权信息 -->
+    <div class="footer">
+      <p>&copy; 2025 | 
+        Created by <a href="https://www.musnow.top?f=sy" target="_blank">musnow</a> | 
+        View at <a href="https://github.com/musnows/siyuan-s3-config-generator" target="_blank">GitHub</a>
+      </p>
+    </div>
+  </div>
+</body>
+</html>
