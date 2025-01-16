@@ -1,0 +1,56 @@
+# https://developer.qiniu.com/kodo/4088/s3-access-domainname
+buckets:
+  - region: 华东-浙江
+    config:
+      endpoint: https://s3.cn-east-1.qiniucs.com/
+      addressing: "Virtual-hosted-style"
+      region: "cn-east-1"
+      tls: "Verify"
+  - region: 华东-浙江2
+    config:
+      endpoint: https://s3.cn-east-2.qiniucs.com/
+      addressing: "Virtual-hosted-style"
+      region: "cn-east-2"
+      tls: "Verify"
+  - region: 华北-河北
+    config:
+      endpoint: https://s3.cn-north-1.qiniucs.com/
+      addressing: "Virtual-hosted-style"
+      region: "cn-north-1"
+      tls: "Verify"
+  - region: 华南-广东
+    config:
+      endpoint: https://s3.cn-south-1.qiniucs.com/
+      addressing: "Virtual-hosted-style"
+      region: "cn-south-1"
+      tls: "Verify"
+  - region: 西北-陕西1
+    config:
+      endpoint: https://s3.cn-northwest-1.qiniucs.com/
+      addressing: "Virtual-hosted-style"
+      region: "cn-northwest-1"
+      tls: "Verify"
+  - region: 北美-洛杉矶
+    config:
+      endpoint: https://s3.us-north-1.qiniucs.com/
+      addressing: "Virtual-hosted-style"
+      region: "us-north-1"
+      tls: "Verify"
+  - region: 亚太-新加坡（原东南亚）
+    config:
+      endpoint: https://s3.ap-southeast-1.qiniucs.com/
+      addressing: "Virtual-hosted-style"
+      region: "ap-southeast-1"
+      tls: "Verify"
+  - region: 亚太-河内
+    config:
+      endpoint: https://s3.ap-southeast-2.qiniucs.com/
+      addressing: "Virtual-hosted-style"
+      region: "ap-southeast-2"
+      tls: "Verify"
+  - region: 亚太-胡志明
+    config:
+      endpoint: https://s3.ap-southeast-3.qiniucs.com/
+      addressing: "Virtual-hosted-style"
+      region: "ap-southeast-3"
+      tls: "Verify"

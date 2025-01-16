@@ -2,4 +2,6 @@ providers:
   - name: "example"
     displayName: "示例S3提供商 / example"
     configFile: "example.yml"
-
+  - name: "qiniu"
+    displayName: "七牛云 / qiniu Kodo"
+    configFile: "qiniu.yml"
