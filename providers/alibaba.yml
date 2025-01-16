@@ -1,7 +1,0 @@
-buckets:
-  - region: cn-hangzhou
-    config:
-      endpoint: oss-cn-hangzhou.aliyuncs.com
-      region: cn-hangzhou
-      addressing: "Path-style"
-      tls: "Verify"
