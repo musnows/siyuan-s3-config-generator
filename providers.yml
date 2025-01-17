@@ -11,3 +11,6 @@ providers:
   - name: "aliyun"
     displayName: "阿里云 OSS / Alibaba Cloud OSS"
     configFile: "aliyun.yml"
+  - name: "tencnet"
+    displayName: "腾讯云 COS / Tecent Cloud COS"
+    configFile: "tencent.yml"

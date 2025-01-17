@@ -1,0 +1,106 @@
+# https://cloud.tencent.com/document/product/436/6224
+# https://cloud.tencent.com/document/product/436/41284
+# https://ld246.com/article/1687843592506
+buckets:
+  - region: 北京一区
+    config:
+      endpoint: https://cos.ap-beijing-1.myqcloud.com
+      addressing: "Virtual-hosted-style"
+      region: "ap-beijing-1"
+      tls: "Verify"
+  - region: 北京
+    config:
+      endpoint: https://cos.ap-beijing.myqcloud.com
+      addressing: "Virtual-hosted-style"
+      region: "ap-beijing"
+      tls: "Verify"
+  - region: 南京
+    config:
+      endpoint: https://cos.ap-nanjing.myqcloud.com
+      addressing: "Virtual-hosted-style"
+      region: "ap-nanjing"
+      tls: "Verify"
+  - region: 上海
+    config:
+      endpoint: https://cos.ap-shanghai.myqcloud.com
+      addressing: "Virtual-hosted-style"
+      region: "ap-shanghai"
+      tls: "Verify"
+  - region: 广州
+    config:
+      endpoint: https://cos.ap-guangzhou.myqcloud.com
+      addressing: "Virtual-hosted-style"
+      region: "ap-guangzhou"
+      tls: "Verify"
+  - region: 成都
+    config:
+      endpoint: https://cos.ap-chengdu.myqcloud.com
+      addressing: "Virtual-hosted-style"
+      region: "ap-chengdu"
+      tls: "Verify"
+  - region: 重庆
+    config:
+      endpoint: https://cos.ap-chongqing.myqcloud.com
+      addressing: "Virtual-hosted-style"
+      region: "ap-chongqing"
+      tls: "Verify"
+  - region: 中国香港
+    config:
+      endpoint: https://cos.ap-hongkong.myqcloud.com
+      addressing: "Virtual-hosted-style"
+      region: "ap-hongkong"
+      tls: "Verify"
+  - region: 新加坡
+    config:
+      endpoint: https://cos.ap-singapore.myqcloud.com
+      addressing: "Virtual-hosted-style"
+      region: "ap-singapore"
+      tls: "Verify"
+  - region: 雅加达
+    config:
+      endpoint: https://cos.ap-jakarta.myqcloud.com
+      addressing: "Virtual-hosted-style"
+      region: "ap-jakarta"
+      tls: "Verify"
+  - region: 首尔
+    config:
+      endpoint: https://cos.ap-seoul.myqcloud.com
+      addressing: "Virtual-hosted-style"
+      region: "ap-seoul"
+      tls: "Verify"
+  - region: 曼谷
+    config:
+      endpoint: https://cos.ap-bangkok.myqcloud.com
+      addressing: "Virtual-hosted-style"
+      region: "ap-bangkok"
+      tls: "Verify"
+  - region: 东京
+    config:
+      endpoint: https://cos.ap-tokyo.myqcloud.com
+      addressing: "Virtual-hosted-style"
+      region: "ap-tokyo"
+      tls: "Verify"
+  - region: 硅谷（美西）
+    config:
+      endpoint: https://cos.na-siliconvalley.myqcloud.com
+      addressing: "Virtual-hosted-style"
+      region: "na-siliconvalley"
+      tls: "Verify"
+  - region: 弗吉尼亚（美东）
+    config:
+      endpoint: https://cos.na-ashburn.myqcloud.com
+      addressing: "Virtual-hosted-style"
+      region: "na-ashburn"
+      tls: "Verify"
+  - region: 圣保罗
+    config:
+      endpoint: https://cos.sa-saopaulo.myqcloud.com
+      addressing: "Virtual-hosted-style"
+      region: "sa-saopaulo"
+      tls: "Verify"
+  - region: 法兰克福
+    config:
+      endpoint: https://cos.eu-frankfurt.myqcloud.com
+      addressing: "Virtual-hosted-style"
+      region: "eu-frankfurt"
+      tls: "Verify"
