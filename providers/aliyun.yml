@@ -1,0 +1,164 @@
+# https://help.aliyun.com/zh/oss/user-guide/regions-and-endpoints
+buckets:
+  - region: 华东1（杭州）
+    config:
+      endpoint: https://oss-cn-hangzhou.aliyuncs.com/
+      addressing: "Virtual-hosted-style"
+      region: "oss-cn-hangzhou"
+      tls: "Verify"
+  - region: 华东2（上海）
+    config:
+      endpoint: https://oss-cn-shanghai.aliyuncs.com/
+      addressing: "Virtual-hosted-style"
+      region: "oss-cn-shanghai"
+      tls: "Verify"
+  - region: 华东5（南京-本地地域）
+    config:
+      endpoint: https://oss-cn-nanjing.aliyuncs.com/
+      addressing: "Virtual-hosted-style"
+      region: "oss-cn-nanjing"
+      tls: "Verify"
+  - region: 华东6（福州-本地地域）
+    config:
+      endpoint: https://oss-cn-fuzhou.aliyuncs.com/
+      addressing: "Virtual-hosted-style"
+      region: "oss-cn-fuzhou"
+      tls: "Verify"
+  - region: 华中1（武汉-本地地域）
+    config:
+      endpoint: https://oss-cn-wuhan-lr.aliyuncs.com/
+      addressing: "Virtual-hosted-style"
+      region: "oss-cn-wuhan-lr"
+      tls: "Verify"
+  - region: 华北1（青岛）
+    config:
+      endpoint: https://oss-cn-qingdao.aliyuncs.com/
+      addressing: "Virtual-hosted-style"
+      region: "oss-cn-qingdao"
+      tls: "Verify"
+  - region: 华北2（北京）
+    config:
+      endpoint: https://oss-cn-beijing.aliyuncs.com/
+      addressing: "Virtual-hosted-style"
+      region: "oss-cn-beijing"
+      tls: "Verify"
+  - region: 华北3（张家口）
+    config:
+      endpoint: https://oss-cn-zhangjiakou.aliyuncs.com/
+      addressing: "Virtual-hosted-style"
+      region: "oss-cn-zhangjiakou"
+      tls: "Verify"
+  - region: 华北5（呼和浩特）
+    config:
+      endpoint: https://oss-cn-huhehaote.aliyuncs.com/
+      addressing: "Virtual-hosted-style"
+      region: "oss-cn-huhehaote"
+      tls: "Verify"
+  - region: 华北6（乌兰察布）
+    config:
+      endpoint: https://oss-cn-wulanchabu.aliyuncs.com/
+      addressing: "Virtual-hosted-style"
+      region: "oss-cn-wulanchabu"
+      tls: "Verify"
+  - region: 华南1（深圳）
+    config:
+      endpoint: https://oss-cn-shenzhen.aliyuncs.com/
+      addressing: "Virtual-hosted-style"
+      region: "oss-cn-shenzhen"
+      tls: "Verify"
+  - region: 华南2（河源）
+    config:
+      endpoint: https://oss-cn-heyuan.aliyuncs.com/
+      addressing: "Virtual-hosted-style"
+      region: "oss-cn-heyuan"
+      tls: "Verify"
+  - region: 华南3（广州）
+    config:
+      endpoint: https://oss-cn-guangzhou.aliyuncs.com/
+      addressing: "Virtual-hosted-style"
+      region: "oss-cn-guangzhou"
+      tls: "Verify"
+  - region: 西南1（成都）
+    config:
+      endpoint: https://oss-cn-chengdu.aliyuncs.com/
+      addressing: "Virtual-hosted-style"
+      region: "oss-cn-chengdu"
+      tls: "Verify"
+  - region: 中国香港
+    config:
+      endpoint: https://oss-cn-hongkong.aliyuncs.com/
+      addressing: "Virtual-hosted-style"
+      region: "oss-cn-hongkong"
+      tls: "Verify"
+  - region: 日本（东京）
+    config:
+      endpoint: https://oss-ap-northeast-1.aliyuncs.com/
+      addressing: "Virtual-hosted-style"
+      region: "oss-ap-northeast-1"
+      tls: "Verify"
+  - region: 韩国（首尔）
+    config:
+      endpoint: https://oss-ap-northeast-2.aliyuncs.com/
+      addressing: "Virtual-hosted-style"
+      region: "oss-ap-northeast-2"
+      tls: "Verify"
+  - region: 新加坡
+    config:
+      endpoint: https://oss-ap-southeast-1.aliyuncs.com/
+      addressing: "Virtual-hosted-style"
+      region: "oss-ap-southeast-1"
+      tls: "Verify"
+  - region: 马来西亚（吉隆坡）
+    config:
+      endpoint: https://oss-ap-southeast-3.aliyuncs.com/
+      addressing: "Virtual-hosted-style"
+      region: "oss-ap-southeast-3"
+      tls: "Verify"
+  - region: 印度尼西亚（雅加达）
+    config:
+      endpoint: https://oss-ap-southeast-5.aliyuncs.com/
+      addressing: "Virtual-hosted-style"
+      region: "oss-ap-southeast-5"
+      tls: "Verify"
+  - region: 菲律宾（马尼拉）
+    config:
+      endpoint: https://oss-ap-southeast-6.aliyuncs.com/
+      addressing: "Virtual-hosted-style"
+      region: "oss-ap-southeast-6"
+      tls: "Verify"
+  - region: 泰国（曼谷）
+    config:
+      endpoint: https://oss-ap-southeast-7.aliyuncs.com/
+      addressing: "Virtual-hosted-style"
+      region: "oss-ap-southeast-7"
+      tls: "Verify"
+  - region: 德国（法兰克福）
+    config:
+      endpoint: https://oss-eu-central-1.aliyuncs.com/
+      addressing: "Virtual-hosted-style"
+      region: "oss-eu-central-1"
+      tls: "Verify"
+  - region: 英国（伦敦）
+    config:
+      endpoint: https://oss-eu-west-1.aliyuncs.com/
+      addressing: "Virtual-hosted-style"
+      region: "oss-eu-west-1"
+      tls: "Verify"
+  - region: 美国（硅谷）
+    config:
+      endpoint: https://oss-us-west-1.aliyuncs.com/
+      addressing: "Virtual-hosted-style"
+      region: "oss-us-west-1"
+      tls: "Verify"
+  - region: 美国（弗吉尼亚）
+    config:
+      endpoint: https://oss-us-east-1.aliyuncs.com/
+      addressing: "Virtual-hosted-style"
+      region: "oss-us-east-1"
+      tls: "Verify"
+  - region: 阿联酋（迪拜）
+    config:
+      endpoint: https://oss-me-east-1.aliyuncs.com/
+      addressing: "Virtual-hosted-style"
+      region: "oss-me-east-1"
+      tls: "Verify"
