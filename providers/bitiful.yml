@@ -1,0 +1,8 @@
+# https://docs.bitiful.com/bitiful-s4/definitions
+buckets:
+  - region: 中国东部1
+    config:
+      endpoint: https://s3.bitiful.net
+      addressing: "Virtual-hosted-style"
+      region: "cn-east-1"
+      tls: "Verify"
