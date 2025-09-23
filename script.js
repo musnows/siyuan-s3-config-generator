@@ -68,27 +68,37 @@ document.addEventListener('DOMContentLoaded', async () => {
   function updateConfig() {
     const selectedRegion = regionSelect.value;
     const bucketName = bucketInput.value.trim();
-    configDisplay.innerHTML = '';
 
-    if (currentConfig && selectedRegion && bucketName) {
+    if (currentConfig && selectedRegion) {
       const bucket = currentConfig.buckets.find(b => b.region === selectedRegion);
       if (bucket) {
         const configToDisplay = {
           endpoint: bucket.config.endpoint,
-          bucket: bucketName,
+          bucket: bucketName || '',
           region: bucket.config.region || selectedRegion,
           addressing: bucket.config.addressing || 'Path-style', // 默认值
           tls: bucket.config.tls || 'Verify' 
         };
 
-        // 逐条显示配置项
-        configDisplay.innerHTML = `
+        // 逐条显示配置项（只有当有bucket名称时才包含bucket行）
+        let configHTML = `
           <div class="config-item"><strong>Endpoint:</strong> ${configToDisplay.endpoint}</div>
-          <div class="config-item"><strong>Bucket:</strong> ${configToDisplay.bucket}</div>
           <div class="config-item"><strong>Region:</strong> ${configToDisplay.region}</div>
           <div class="config-item"><strong>Addressing:</strong> ${configToDisplay.addressing}</div>
           <div class="config-item"><strong>TLS Verify:</strong> ${configToDisplay.tls}</div>
         `;
+        
+        if (bucketName) {
+          configHTML = `
+            <div class="config-item"><strong>Endpoint:</strong> ${configToDisplay.endpoint}</div>
+            <div class="config-item"><strong>Bucket:</strong> ${configToDisplay.bucket}</div>
+            <div class="config-item"><strong>Region:</strong> ${configToDisplay.region}</div>
+            <div class="config-item"><strong>Addressing:</strong> ${configToDisplay.addressing}</div>
+            <div class="config-item"><strong>TLS Verify:</strong> ${configToDisplay.tls}</div>
+          `;
+        }
+        
+        configDisplay.innerHTML = configHTML;
       }
     } else {
       configDisplay.innerHTML = '此处会显示思源笔记 S3 同步应填写的配置。<br>Siyuan S3 configuration will display here.';
