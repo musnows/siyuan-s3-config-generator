@@ -84,6 +84,12 @@ buckets:
       addressing: "Virtual-hosted-style"
       region: "oss-cn-chengdu"
       tls: "Verify"
+  - region: 无地域属性（大陆）
+    config:
+      endpoint: https://oss-rg-china-mainland.aliyuncs.com/
+      addressing: "Virtual-hosted-style"
+      region: "rg-china-mainland"
+      tls: "Verify"
   - region: 中国香港
     config:
       endpoint: https://oss-cn-hongkong.aliyuncs.com/
