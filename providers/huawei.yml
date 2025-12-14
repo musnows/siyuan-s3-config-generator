@@ -1,0 +1,63 @@
+# https://console.huaweicloud.com/apiexplorer/#/endpoint/OBS
+# https://support.huaweicloud.com/productdesc-obs/obs_03_0152.html
+buckets:
+  - region: 非洲-开罗
+    config:
+      endpoint: https://obs.af-north-1.myhuaweicloud.com
+      addressing: "Virtual-hosted-style"
+      region: "af-north-1"
+      tls: "Verify"
+  - region: 非洲-约翰内斯堡
+    config:
+      endpoint: https://obs.af-south-1.myhuaweicloud.com
+      addressing: "Virtual-hosted-style"
+      region: "af-south-1"
+      tls: "Verify"
+  - region: 中国-香港
+    config:
+      endpoint: https://obs.ap-southeast-1.myhuaweicloud.com
+      addressing: "Virtual-hosted-style"
+      region: "ap-southeast-1"
+      tls: "Verify"
+  - region: 亚太-曼谷
+    config:
+      endpoint: https://obs.ap-southeast-2.myhuaweicloud.com
+      addressing: "Virtual-hosted-style"
+      region: "ap-southeast-2"
+      tls: "Verify"
+  - region: 亚太-新加坡
+    config:
+      endpoint: https://obs.ap-southeast-3.myhuaweicloud.com
+      addressing: "Virtual-hosted-style"
+      region: "ap-southeast-3"
+      tls: "Verify"
+  - region: 亚太-雅加达
+    config:
+      endpoint: https://obs.ap-southeast-4.myhuaweicloud.com
+      addressing: "Virtual-hosted-style"
+      region: "ap-southeast-4"
+      tls: "Verify"
+  - region: 亚太-马尼拉
+    config:
+      endpoint: https://obs.ap-southeast-5.myhuaweicloud.com
+      addressing: "Virtual-hosted-style"
+      region: "ap-southeast-5"
+      tls: "Verify"
+  - region: 华东-上海二
+    config:
+      endpoint: https://obs.cn-east-2.myhuaweicloud.com
+      addressing: "Virtual-hosted-style"
+      region: "cn-east-2"
+      tls: "Verify"
+  - region: 华东-上海一
+    config:
+      endpoint: https://obs.cn-east-3.myhuaweicloud.com
+      addressing: "Virtual-hosted-style"
+      region: "cn-east-3"
+      tls: "Verify"
+  - region: 华东二
+    config:
+      endpoint: https://obs.cn-east-4.myhuaweicloud.com
+      addressing: "Virtual-hosted-style"
+      region: "cn-east-4"
+      tls: "Verify"
