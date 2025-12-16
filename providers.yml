@@ -14,3 +14,6 @@ providers:
   - name: "tencnet"
     displayName: "腾讯云 COS / Tecent Cloud COS"
     configFile: "tencent.yml"
+  - name: "huawei"
+    displayName: "华为 OBS / Huawei OBS"
+    configFile: "huawei.yml"
